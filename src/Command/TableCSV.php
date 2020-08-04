@@ -27,7 +27,6 @@ class TableCSV extends Command
         
         $arrayFormate = $formatCSV->FormateDate($array);
         $arrayFormate = $formatCSV->FormatePrice($arrayFormate);
-        $arrayFormate = $formatCSV->formateDescription($arrayFormate);
         $arrayFormate = $formatCSV->formateEnable($arrayFormate);
         $arrayFormate = $formatCSV->formateTitle($arrayFormate);
 

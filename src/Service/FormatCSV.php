@@ -41,14 +41,6 @@ class FormatCSV {
         return $arrayFormate;
     }
 
-    public function formateDescription(array $array): array
-    {
-        //  var_dump($array[1]['description']);
-        echo "Hello world". '<br />' ."Hello world";
-
-        return $arrayFormate;
-    }
-
     public function formatePrice(array $array):array
     {
         $arrayFormate = array();
